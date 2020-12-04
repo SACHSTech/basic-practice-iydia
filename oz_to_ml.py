@@ -1,0 +1,6 @@
+print("Welcome to the OZ to mL calculator. We also take into consideration your servings.")
+print(" ")
+oz = float(input("How many fluid ounces in total?: "))
+servings = int(input("How many servings are there?: "))
+print(" ")
+print("You will need " + str((oz * 29.5735296) * servings/4) + " ml")

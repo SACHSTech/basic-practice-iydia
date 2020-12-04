@@ -1,0 +1,5 @@
+print("Welcome to the calorie calculator!")
+print(" ")
+cake = float(input("How many cake pieces have you eaten?: "))
+print(" ")
+print("You will need to jog " + str((cake * 225)/100) + " km to burn all cake calories.")
